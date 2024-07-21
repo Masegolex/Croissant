@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(241, 226, 151);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+:root {
+  view-transition-name: root;
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+.croissant-photo {
+  max-width: 100px;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+footer {
+  text-align: center;
+  display: block;
+}
