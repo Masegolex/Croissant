@@ -7,11 +7,16 @@ body {
   view-transition-name: root;
 }
 
-h1 {
+h1,
+p {
   text-align: center;
 }
 p {
-  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .croissant-photo {
@@ -29,4 +34,8 @@ img {
 footer {
   text-align: center;
   display: block;
+}
+footer a {
+  margin: 0 10px;
+  color: green;
 }
